@@ -1,6 +1,6 @@
-const title = "Hafffe.dev";
-const description = "Developer, Javascript";
-const url = "https://nextjs-sanity-template.now.sh/";
+const title = "Empires and Embers Dev Blog";
+const description = "4X Strategy game";
+const url = "https://dev.empiresandembers.com/";
 
 const config = {
   title,
@@ -10,12 +10,12 @@ const config = {
     type: "website",
     locale: "en_EN",
     url,
-    site_name: "nextjs-sanity-template.now.sh",
+    site_name: "Empires and Embers Dev Blog",
     title,
     description,
     images: [
       {
-        url: "https://nextjs-sanity-template.now.sh/favicon.svg",
+        url: "https://dev.empiresandembers.com/favicon.png",
         alt: title,
         width: 1280,
         height: 720,
