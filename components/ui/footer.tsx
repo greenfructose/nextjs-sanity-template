@@ -12,7 +12,7 @@ const Footer = ({socialFields}: Props) => {
       <p className="text-base">
         Made by{" "}
         <a href="https://github.com/greenfructose" target="_blank" rel="noreferrer" className="underline underline-offset-4">
-          Hafffe
+          Justin Turney
         </a>{" "}
         for everyone
       </p>
