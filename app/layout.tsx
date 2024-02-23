@@ -1,14 +1,15 @@
-import {Work_Sans} from "next/font/google";
+import {Ubuntu} from "next/font/google";
 
-const workSans = Work_Sans({
-  variable: "--font-work-sans",
+const ubuntu = Ubuntu({
+  variable: "--font-ubuntu",
   subsets: ["latin"],
+  weight: "300"
 });
 
 const Layout = ({children}) => {
   return (
-    <html lang="en" className={workSans.className}>
-      <body className="bg-white text-gray-800 min-h-screen">{children}</body>
+    <html lang="en" className={ubuntu.className}>
+      <body className="bg-slate-800 text-white min-h-screen">{children}</body>
     </html>
   );
 };
