@@ -16,7 +16,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
       title: "Posts",
       icons: {
-        icon: "/favicon/favicon.svg",
+        icon: "/favicon/favicon.ico",
       },
     };
   }
@@ -25,7 +25,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     title: page.meta?.metaTitle ?? page.title,
     description: page.meta?.metaDescription,
     icons: {
-      icon: "/favicon/favicon.svg",
+      icon: "/favicon/favicon.ico",
     },
     openGraph: {
       title: page.meta?.openGraphTitle,

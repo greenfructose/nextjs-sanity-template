@@ -20,7 +20,7 @@ export const generateMetadata = async ({params}: {params: {slug: string}}): Prom
     title: post.meta?.metaTitle ?? post.title,
     description: post.meta?.metaDescription,
     icons: {
-      icon: "/favicon/favicon.svg",
+      icon: "/favicon/favicon.ico",
     },
     openGraph: {
       title: post.meta?.openGraphTitle,

@@ -11,7 +11,7 @@ const Footer = ({socialFields}: Props) => {
     <MaxWidthWrapper className="flex flex-row flex-nowrap justify-center items-center pb-8" type="footer">
       <p className="text-base">
         Made by{" "}
-        <a href="https://github.com/hafffe" target="_blank" rel="noreferrer" className="underline underline-offset-4">
+        <a href="https://github.com/greenfructose" target="_blank" rel="noreferrer" className="underline underline-offset-4">
           Hafffe
         </a>{" "}
         for everyone
