@@ -8,7 +8,7 @@ import {urlForOpenGraphImage} from "~/lib/sanity/utils";
 const HomePagePreview = dynamic(() => import("~/components/pages/home/preview"));
 
 export const generateMetadata = async (): Promise<Metadata> => {
-  const {data} = await loadPageWithPosts({slug: "frontpage", limit: 2});
+  const {data} = await loadPageWithPosts({slug: "frontpage", limit: 4});
   const {page} = data;
   const ogImage = urlForOpenGraphImage(page.meta?.openGraphImage);
 
@@ -34,7 +34,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 const IndexRoute = async () => {
   const isEnabled = draftModeEnabled();
-  const initalData = await loadPageWithPosts({slug: "frontpage", limit: 2});
+  const initalData = await loadPageWithPosts({slug: "frontpage", limit: 4});
   const params = {slug: "frontpage", limit: 2};
 
   if (isEnabled) {

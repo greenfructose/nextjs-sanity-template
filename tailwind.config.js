@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ["var(--font-ubuntu)", "system-ui", "sans-serif"],
-        default: ["var(--font-ubuntu)", "system-ui", "sans-serif"],
+        display: ["var(--font-ubuntu)", "sans-serif"],
+        default: ["var(--font-ubuntu)", "sans-serif"],
       },
     },
   },

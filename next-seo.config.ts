@@ -15,7 +15,7 @@ const config = {
     description,
     images: [
       {
-        url: "https://dev.empiresandembers.com/favicon.png",
+        url: "https://dev.empiresandembers.com/logo-lg.png",
         alt: title,
         width: 1280,
         height: 720,
