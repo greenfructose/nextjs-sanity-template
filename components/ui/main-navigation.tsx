@@ -57,12 +57,12 @@ const MainNavigation = ({navigation}: Props) => {
   }
 
   return (
-    <div className="flex flex-wrap items-center justify-between py-4 md:py-0 px-4 text-lg bg-transparent ml-auto">
+    <div className="flex flex-wrap items-center justify-between py-4 md:py-0 px-4 text-lg bg-slate-800 ml-auto">
       <button className="block ml-auto md:hidden" onClick={toggleOpenState}>
         <HiBars3 />
       </button>
       <div className={cn("w-full md:flex md:items-center md:w-auto", isOpen ? "block fixed inset-0 top-16" : "hidden")}>
-        <nav className="relative bg-transparent drop-shadow-md md:drop-shadow-none rounded-sm flex-col md:flex md:flex-row w-full px-4 py-4">
+        <nav className="relative bg-slate-800 drop-shadow-md md:drop-shadow-none rounded-sm flex-col md:flex md:flex-row w-full px-4 py-4">
           {navigation.map((item) => {
             const link = resolveLink(item);
 
